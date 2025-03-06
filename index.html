@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake Admin Portal</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f0f0; }
+        .login { width: 300px; margin: 100px auto; padding: 20px; background: white; border: 1px solid #ccc; }
+        input { width: 100%; margin: 10px 0; padding: 5px; }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h2>Admin Login</h2>
+        <form action="/login" method="POST">
+            <input type="text" placeholder="Username" name="username">
+            <input type="password" placeholder="Password" name="password">
+            <input type="submit" value="Login">
+        </form>
+        <p style="color: red;" id="error"></p>
+    </div>
+</body>
+</html>
