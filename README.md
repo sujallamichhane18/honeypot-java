@@ -40,11 +40,17 @@ RDP Honeypot running on port 3389
 
 Test the Services:
 SSH: telnet localhost 22 → Enter username/password.
+
 HTTP: Open http://localhost in a browser → Try logging in; view logs at http://localhost/logs.
+
 FTP: ftp localhost → Type USER test and PASS test123.
+
 RDP: telnet localhost 3389 → Enter username/password.
+
 View Logs:
+
 Access http://localhost/logs to see a table of all activity and attack analysis (top IPs, usernames, passwords).
+
 Stop: Press Ctrl + C in the terminal.
 
 Logs
