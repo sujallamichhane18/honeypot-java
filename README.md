@@ -30,6 +30,7 @@ This project creates a lightweight honeypot that mimics real services to attract
    - Open a terminal in the project directory:  
      ```bash
      javac HoneypotServer.java
+     java HoneypotServer.java
 
     Output:
 SSH Honeypot running on port 22
